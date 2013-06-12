@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="Theme.Campusguide" parent="Theme.Sherlock.Light" />
+    
+    <style name="Theme.Campusguide.Main" parent="Theme.Campusguide">
+        <item name="android:windowBackground">@drawable/grey_background_pattern</item>
+    </style>
+    
+    <style name="Theme.Campusguide.Building" parent="Theme.Campusguide">
+        <item name="android:windowBackground">@drawable/grey_background_pattern</item>
+    </style>
+
+</resources>

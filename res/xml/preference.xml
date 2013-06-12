@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory android:title="Server" >
+        <EditTextPreference
+            android:dialogTitle="IP"
+            android:key="server_ip"
+            android:summary="Rest API Server IP"
+            android:title="Server IP" />
+        <ListPreference
+                android:key="server_mode"
+                android:title="Mode"
+                android:summary="Rest API Server Mode"
+                android:entries="@array/server_mode_entries"
+                android:entryValues="@array/server_mode_entryvalues"
+                android:dialogTitle="Server Mode" />
+    </PreferenceCategory>
+
+</PreferenceScreen>
